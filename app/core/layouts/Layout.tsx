@@ -1,5 +1,4 @@
 import Head from "next/head"
-import React, { FC } from "react"
 import { BlitzLayout } from "@blitzjs/next"
 
 const Layout: BlitzLayout<{ title?: string; children?: React.ReactNode }> = ({
@@ -9,7 +8,7 @@ const Layout: BlitzLayout<{ title?: string; children?: React.ReactNode }> = ({
   return (
     <>
       <Head>
-        <title>{title || "spliteasy"}</title>
+        <title>{title || "SplitEasy"}</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
